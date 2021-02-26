@@ -1,0 +1,17 @@
+package THAP1;
+public class aa {
+	public static void main(String[] args) {
+		int S = 0;
+		int a;
+		for(int i=1; i<=9; i++) {
+			System.out.printf("\nBang nhan %d: ",i);
+			for(int j=1; j<=9; j++) {
+				a = i;
+				S = a*j;
+				System.out.printf("\t %d * %d = %d ",a,j,S);
+				a++;
+			}
+		}
+	}
+
+}
