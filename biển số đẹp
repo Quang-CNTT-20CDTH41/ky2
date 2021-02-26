@@ -1,0 +1,17 @@
+package THAP1;
+public class biensoxe {
+	public static void main(String[] args) {
+		for(int i = 10000; i <= 99999; i++) {
+			int n = i;
+			int tong = 0;
+			while(n>0) {
+				int mod = n % 10;
+				tong += mod;
+				n = n / 10;
+			}
+			if(tong % 10 == 9) {
+				System.out.println("So dep: " + i);
+			}
+		}
+	}
+}
