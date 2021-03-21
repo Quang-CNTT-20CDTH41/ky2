@@ -1,0 +1,9 @@
+try{
+  đoạn code nghi vấn lỗi
+}
+catch(Exception e){
+  e.printStackTrace();
+}
+finally{
+  thông báo hết đoạn code thử lỗi
+}
